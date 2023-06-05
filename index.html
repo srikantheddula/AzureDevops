@@ -1,623 +1,549 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>hightech</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- awesome fontfamily -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Picstudio</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href=" css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="" href="about.html">About </a>
+                  <a class="" href="gallery.html">Gallery </a>
+                  <a class="" href="blog.html">Blog </a>
+                  <a class="" href="testimonial.html">Testimonial </a>
+                </div>
+              </div>
+            </div>
+            <a class="navbar-brand" href="index.html">
+              <span>
+                Picstudio
+              </span>
+            </a>
+            <div class="user_option">
+              <a href="#">
+                login
+              </a>
+              <form class="form-inline ">
+                <button class="btn  nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
       </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row d_flex">
-                  <div class=" col-md-2 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="container-fluid">
+        <div class="row slider-row">
+          <div class="col-lg-3 offset-lg-1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="detail-box">
+                    <h1>
+                      Pic <br />
+                      Studio
+                    </h1>
+                    <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page
+                    </p>
+                    <div>
+                      <a href="#">
+                        Request A Quote
+                      </a>
+                    </div>
                   </div>
-                  <div class="col-md-8 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="we_do.html">What we do</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="portfolio.html">Portfolio </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
+                </div>
+                <div class="carousel-item">
+                  <div class="detail-box">
+                    <h1>
+                      Pic <br />
+                      Studio
+                    </h1>
+                    <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page
+                    </p>
+                    <div>
+                      <a href="#">
+                        Request A Quote
+                      </a>
+                    </div>
                   </div>
-                  <div class="col-md-2 d_none">
-                     <ul class="email text_align_right">
-                        <li> <a href="Javascript:void(0)"> Login </a></li>
-                        <li> <a href="Javascript:void(0)"> <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"> </i></a> </li>
-                     </ul>
-                  </div>
-               </div>
+                </div>
+              </div>
+              <div class="carousel_control-box">
+                <div class="carousel_btn-container">
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active li_one">01</li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" class="li_two">02</li>
+                  <li class="ol_design"></li>
+                </ol>
+              </div>
             </div>
-         </div>
-      </header>
-      <!-- end header -->
-      <!-- start slider section -->
-      <div id="top_section" class=" banner_main">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
+          </div>
+          <div class="col-lg-8 px-0">
+            <div class="img-box">
+              <img src="images/slider-img.png" alt="" />
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end slider section -->
-      <!-- we_do -->
-      <div class="we_do">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>What we do </h2>
-                  </div>
-               </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Studio
+              </h2>
+              <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page
+              </p>
+              <a href="">
+                Read More
+              </a>
             </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="we1" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#we1" data-slide-to="0" class="active"></li>
-                        <li data-target="#we1" data-slide-to="1"></li>
-                        <li data-target="#we1" data-slide-to="2"></li>
-                        <li data-target="#we1" data-slide-to="3"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="carousel-caption we1_do">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption we1_do">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we2.png" alt="#"/></i>
-                                          <h3>App <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we3.png" alt="#"/></i>
-                                          <h3>website <br>design</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption we1_do">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#we1" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#we1" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end we_do -->
-      <!-- about -->
-      <div class="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>About Company</h2>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-                  </div>
-               </div>
-            </div>
-         </div>
+    </div>
+    <div class="img-box">
+      <div class="play_btn">
+        <a href="#">
+          <img src="images/play.png" alt="" />
+        </a>
       </div>
-      <!-- end about -->
-      <!-- portfolio -->
-      <div class="portfolio">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_left">
-                     <h2>We Have Done Portfolio  </h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot1.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot2.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot3.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot4.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-12">
-                  <a class="read_more" href="portfolio.html">See More</a>
-               </div>
-            </div>
-         </div>
+      <img src="images/about-img.png" class="about-img" alt="" />
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- gallery section -->
+  <section class="gallery_section layout_padding-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              Our Gallery
+            </h2>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page
+            </p>
+            <a href="">
+              See More
+            </a>
+          </div>
+        </div>
       </div>
-      <!-- end portfolio -->
-      <!-- chose -->
-      <div class="chose">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_left">
-                     <h2>Why Chose us</h2>
-                  </div>
-               </div>
-               <div class="col-lg-5 col-md-4">
-                  <div class="chose_box">
-                     <i><img src="images/chose1.png" alt="#"/></i>
-                     <h3>Project Done </h3>
-                     <strong>1000+</strong>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-               <div class="col-lg-5 col-md-4">
-                  <div class="chose_box">
-                     <i><img src="images/chose2.png" alt="#"/></i>
-                     <h3>Happy Clients </h3>
-                     <strong>900+</strong>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-4">
-                  <div class="chose_box">
-                     <i><img src="images/chose3.png" alt="#"/></i>
-                     <h3>Awards</h3>
-                     <strong>100+</strong>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
+    </div>
+    <div class="gallery_container">
+      <div class="gallery_bg">
+        <img src="images/gallery-bg.png" alt="" />
       </div>
-      <!-- end chose -->
-      <!-- contact -->
-      <div class="contact">
-         <div class="container">
-            <div class="row ">
-               <div class="col-md-6">
-                  <div class="titlepage text_align_left">
-                     <h2>Get In Touch</h2>
-                  </div>
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Name" type="type" name=" Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send Now</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-6">
-                  <div class="titlepage text_align_left">
-                     <h2>What Says Clients</h2>
-                  </div>
-                  <div id="clientsl" class="carousel slide our_clientsl" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#clientsl" data-slide-to="0" class="active"></li>
-                        <li data-target="#clientsl" data-slide-to="1"></li>
-                        <li data-target="#clientsl" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container">
-                              <div class="carousel-caption posi_in">
-                                 <div class="clientsl_text">
-                                    <i><img src="images/clint.jpg" alt="#"/></i>
-                                    <h3>Deno <img src="images/icon.png" alt="#"/></h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption posi_in">
-                                 <div class="clientsl_text">
-                                    <i><img src="images/clint.jpg" alt="#"/></i>
-                                    <h3>Deno <img src="images/icon.png" alt="#"/></h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption posi_in">
-                                 <div class="clientsl_text">
-                                    <i><img src="images/clint.jpg" alt="#"/></i>
-                                    <h3>Deno <img src="images/icon.png" alt="#"/></h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#clientsl" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#clientsl" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
+      <div class="container">
+        <div class="gallery_box">
+          <div class="box b1">
+            <div class="img-box">
+              <img src="images/gallery-1.jpg" alt="" />
+              <h5>
+                photography
+              </h5>
             </div>
-         </div>
+          </div>
+          <div class="box b2">
+            <div class="img-box">
+              <img src="images/gallery-2.jpg" alt="" />
+              <h5>
+                photography
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="images/gallery-3.jpg" alt="" />
+              <h5>
+                photography
+              </h5>
+            </div>
+          </div>
+          <div class="box b3">
+            <div class="img-box">
+              <img src="images/gallery-4.jpg" alt="" />
+              <h5>
+                photography
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="images/gallery-5.jpg" alt="" />
+              <h5>
+                photography
+              </h5>
+            </div>
+          </div>
+          <div class="box b4">
+            <div class="img-box">
+              <img src="images/gallery-6.jpg" alt="" />
+              <h5>
+                photography
+              </h5>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- contact -->
-      <!-- footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-3">
-                     <a class="logo_footer" href="index.html"><img src="images/logo_footer.png" alt="#" /></a>
-                  </div>
-                  <div class="col-md-9">
-                     <form class="newslatter_form">
-                        <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="subs_btn">Sbscribe Now</button>
-                     </form>
-                  </div>
-                  <div class="col-md-3 col-sm-6"
-                  >
-                     <div class="Informa helpful">
-                        <h3>Useful  Link</h3>
-                        <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="we_do.html">What we do</a></li>
-                           <li><a href="portfolio.html">Portfolio</a></li>
-                           <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa">
-                        <h3>News</h3>
-                        <ul>
-                           <li>It is a long established                            
-                           </li>
-                           <li>fact that a reader will                           
-                           </li>
-                           <li>be distracted by the                           
-                           </li>
-                           <li>readable content of a                              
-                           </li>
-                           <li>page when                          
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa">
-                        <h3>company</h3>
-                        <ul>
-                           <li>It is a long established                             
-                           </li>
-                           <li>fact that a reader will                            
-                           </li>
-                           <li>be distracted by the                          
-                           </li>
-                           <li>readable content of a                              
-                           </li>
-                           <li>page when                          
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa conta">
-                        <h3>contact Us</h3>
-                        <ul>
-                           <li> <a href="Javascript:void(0)"> <i class="fa fa-map-marker" aria-hidden="true"></i> Location
-                              </a>
-                           </li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i> Call +01 1234567890
-                              </a>
-                           </li>
-                           <li> <a href="Javascript:void(0)"> <i class="fa fa-envelope" aria-hidden="true"></i> demo@gmail.com
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+    </div>
+  </section>
+  <!-- end gallery section -->
+
+  <!-- blog section -->
+
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Letest Blog
+              </h2>
+              <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page
+              </p>
+              <a href="">
+                Read More
+              </a>
             </div>
-            <div class="copyright text_align_left">
-               <div class="container">
-                  <div class="row d_flex">
-                     <div class="col-md-6">
-                        <p>© 2020 All Rights Reserved.  <a href="https://html.design/"> Free Html Template</a></p>
-                     </div>
-                     <div class="col-md-6">
-                        <ul class="social_icon text_align_center">
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog_container">
+      <div class="blog_bg">
+        <img src="images/gallery-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="blog_box">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box b1">
+                <div class="img-box">
+                  <img src="images/blog1.jpg" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Best photography
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post By: Pic studio
+                      </h6>
+                      <h6>
+                        16-01-2020
+                      </h6>
+                    </div>
                   </div>
-               </div>
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                  </p>
+                </div>
+              </div>
             </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+            <div class="col-md-6">
+              <div class="box b2">
+                <div class="img-box">
+                  <img src="images/blog2.jpg" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Photography
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post By: Pic studio
+                      </h6>
+                      <h6>
+                        16-01-2020
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end blog section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              What Says Customer
+            </h2>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="client_container">
+      <div class="client_bg">
+        <img src="images/gallery-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="client_box">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box b1">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="client_content-box layout_padding">
+                        <div class="img-box">
+                          <img src="images/client.png" alt="" />
+                        </div>
+                        <div class="detail-box">
+                          <h4>
+                            Plio Dorak
+                          </h4>
+                          <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          </p>
+                          <img src="images/quote.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="client_content-box layout_padding">
+                        <div class="img-box">
+                          <img src="images/client.png" alt="" />
+                        </div>
+                        <div class="detail-box">
+                          <h4>
+                            Plio Dorak
+                          </h4>
+                          <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          </p>
+                          <img src="images/quote.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="client_content-box layout_padding">
+                        <div class="img-box">
+                          <img src="images/client.png" alt="" />
+                        </div>
+                        <div class="detail-box">
+                          <h4>
+                            Plio Dorak
+                          </h4>
+                          <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          </p>
+                          <img src="images/quote.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box b2">
+                <div class="camera_img-box">
+                  <img src="images/camera.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="info_container layout_padding-top">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Contact Us
+          </h2>
+        </div>
+        <div class="info_main">
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="info_contact ">
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/location.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Location
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/mail.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      demo@gmail.com
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/call.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Call +01 1234567890
+                    </h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-3">
+              <div class="info_link-box">
+                <ul>
+                  <li class=" ">
+                    <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="">
+                    <a class="" href="about.html">About </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="gallery.html">Gallery </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="blog.html">Blog </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="testimonial.html">Testimonial </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="social_box">
+                <a href="#">
+                  <img src="images/facebook.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/twitter.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/youtube.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <footer class="footer_section ">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved. Design by
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>
